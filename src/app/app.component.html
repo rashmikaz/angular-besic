@@ -3,7 +3,25 @@
 <h1>{{ title }}</h1>
 
 <!-- property binding -->
-<img [src]="imageUrl" />
+<!-- <img [src]="imageUrl" /> -->
 
 <!-- attribute binding -->
-<button [attr.aria-label]="areaLabel">click me</button>
+<!-- <button [attr.aria-label]="areaLabel">click me</button> -->
+
+<table>
+  <tr>
+    <th>name</th>
+    <th>age</th>
+  </tr>
+  <tr>
+    <th>chsmod</th>
+    <th>23</th>
+  </tr>
+  <tr>
+    <th>kamal perera</th>
+    <th>26</th>
+  </tr>
+  <tr>
+    <td [colSpan]="colSpan">some of age of the peoper =49</td>
+  </tr>
+</table>
