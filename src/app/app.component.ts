@@ -17,4 +17,6 @@ export class AppComponent {
 
   areaLabel: string = 'this is open something';
   colSpan: number = 2;
+
+  isDisabled: boolean = false;
 }
